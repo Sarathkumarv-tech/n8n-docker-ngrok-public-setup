@@ -11,6 +11,8 @@ n8n-docker-ngrok-public-setup/
 ├── docker_setup.md (Optional)
 └── LICENSE (Optional)
 
+<img width="1916" height="969" alt="n8n-docker-ngrok-public-setup" src="https://github.com/user-attachments/assets/df81cf77-ef7c-4e11-8e5c-8cfa502e0cae" />
+
 
 ### Key Benefits:
 - **Remote Access**: Run your N8N workflows from any device.
