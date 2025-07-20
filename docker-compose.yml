@@ -1,0 +1,12 @@
+version: '3'
+services:
+  n8n:
+    image: n8nio/n8n
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_EDITOR_BASE_URL=https://<your-ngrok-url>.ngrok.io
+      - N8N_WEBHOOK_URL=https://<your-ngrok-url>.ngrok.io
+      - N8N_DEFAULT_BINARY_DATA_MODE=filesystem
+    volumes:
+      - ./n8n-data:/root/.n8n
