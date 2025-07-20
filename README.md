@@ -3,6 +3,15 @@
 ## Introduction
 This repository provides a step-by-step guide to expose your self-hosted N8N server to the internet using Docker and NGROK. With this setup, you can run and access N8N workflows securely from anywhere, without the need for cloud hosting or domains.
 
+n8n-docker-ngrok-public-setup/
+│
+├── README.md
+├── docker-compose.yml (Optional)
+├── ngrok_config.md (Optional)
+├── docker_setup.md (Optional)
+└── LICENSE (Optional)
+
+
 ### Key Benefits:
 - **Remote Access**: Run your N8N workflows from any device.
 - **Zero Cloud Fees**: No cloud hosting or domain registration needed.
